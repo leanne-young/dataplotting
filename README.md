@@ -11,6 +11,9 @@ Overlays the phase plots of the action potentials of 3 different cells before an
 ### AP_BarGraph_Amp.py
 Plots the average amplitude of the action potentials of each cell. Data is derived from the amplitude measurement feature on Clampfit, which outputs the peak amplitude of each AP event in all the traces of each recording. All calculations are made with Numpy built-in functions.
 
+### AP_BarGraph_Dur.py
+Plots the average duration of the action potentials of each cell, data derived from the average trace.
+
 ### plotting.py
 [older version code] Plotting the recordings from our Leech module data collection.
 Overlays 2 different action potentials to compare their differences.
