@@ -1,4 +1,4 @@
-#Plot APs from clampfit
+#Plot AP duration
 
 import argparse
 import os
@@ -10,12 +10,12 @@ from matplotlib.lines import Line2D
 import numpy as np
 
 #import csv's
-R1_Ctl_data = pd.read_csv (r"C:\Users\Iron Precision\Desktop\School\Leech\R1_Ctl.csv")
-R2_Ctl_data = pd.read_csv (r"C:\Users\Iron Precision\Desktop\School\Leech\R2_Ctl.csv")
-R3_Ctl_data = pd.read_csv (r"C:\Users\Iron Precision\Desktop\School\Leech\R3_Ctl.csv")
-R1_WashIn_data = pd.read_csv (r"C:\Users\Iron Precision\Desktop\School\Leech\R1_WashIn.csv")
-R2_WashIn_data = pd.read_csv (r"C:\Users\Iron Precision\Desktop\School\Leech\R2_WashIn.csv")
-R3_WashIn_data = pd.read_csv (r"C:\Users\Iron Precision\Desktop\School\Leech\R3_WashIn.csv")
+R1_Ctl_data = pd.read_csv (r"C:\Users\Leanne\Desktop\School\Leech\R1_Ctl.csv")
+R2_Ctl_data = pd.read_csv (r"C:\Users\Leanne\Desktop\School\Leech\R2_Ctl.csv")
+R3_Ctl_data = pd.read_csv (r"C:\Users\Leanne\Desktop\School\Leech\R3_Ctl.csv")
+R1_WashIn_data = pd.read_csv (r"C:\Users\Leanne\Desktop\School\Leech\R1_WashIn.csv")
+R2_WashIn_data = pd.read_csv (r"C:\Users\Leanne\Desktop\School\Leech\R2_WashIn.csv")
+R3_WashIn_data = pd.read_csv (r"C:\Users\Leanne\Desktop\School\Leech\R3_WashIn.csv")
 
 # make dataframes from data
 R1_Ctl_df = pd.DataFrame(R1_Ctl_data, columns=["Time", "V"])
@@ -25,8 +25,7 @@ R1_WashIn_df = pd.DataFrame(R1_WashIn_data, columns=["Time", "V"])
 R2_WashIn_df = pd.DataFrame(R2_WashIn_data, columns=["Time", "V"])
 R3_WashIn_df = pd.DataFrame(R3_WashIn_data, columns=["Time", "V"])
 
-#plotting subsets ------------------------------
-#plotting each line separately to manually change colors and properties easily
+#calculating values ------------------------------
 #R1_Ctl
 x1 = R1_Ctl_df['Time'].iloc[-1]
 y1 = np.array(R1_Ctl_df['V'])
