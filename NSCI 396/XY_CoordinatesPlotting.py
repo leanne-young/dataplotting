@@ -12,10 +12,10 @@ import numpy as np
 from scipy.interpolate import interp1d
 
 #import csv
-#data = pd.read_csv (r"C:\Users\Iron Precision\Desktop\School\Lab_2022\DLC\Trial9_DCohort-LY-2022-03-27\results\2022-03-17_F2-WT-C61DLC_resnet50_Trial9_DCohortMar27shuffle1_250000_filtered.csv")
-#data = pd.read_csv (r"C:\Users\Iron Precision\Desktop\School\Lab_2022\DLC\Trial9_DCohort-LY-2022-03-27\results\2022-03-17_F2-KO-C70DLC_resnet50_Trial9_DCohortMar27shuffle1_250000_filtered.csv")
-data = pd.read_csv (r"C:\Users\Iron Precision\Desktop\School\Lab_2022\DLC\results\2020-11-29_F2-KODLC_resnet50_Trial8_DLCMar27shuffle1_200000_filtered.csv")
-#data = pd.read_csv (r"C:\Users\Iron Precision\Desktop\School\Lab_2022\DLC\results\2020-11-30_F2-KODLC_resnet50_Trial8_DLCMar27shuffle1_200000_filtered.csv")
+#data = pd.read_csv (r"C:\Users\Leanne\Desktop\School\Lab_2022\DLC\Trial9_DCohort-LY-2022-03-27\results\2022-03-17_F2-WT-C61DLC_resnet50_Trial9_DCohortMar27shuffle1_250000_filtered.csv")
+#data = pd.read_csv (r"C:\Users\Leanne\Desktop\School\Lab_2022\DLC\Trial9_DCohort-LY-2022-03-27\results\2022-03-17_F2-KO-C70DLC_resnet50_Trial9_DCohortMar27shuffle1_250000_filtered.csv")
+data = pd.read_csv (r"C:\Users\Leanne\Desktop\School\Lab_2022\DLC\results\2020-11-29_F2-KODLC_resnet50_Trial8_DLCMar27shuffle1_200000_filtered.csv")
+#data = pd.read_csv (r"C:\Users\Leanne\Desktop\School\Lab_2022\DLC\results\2020-11-30_F2-KODLC_resnet50_Trial8_DLCMar27shuffle1_200000_filtered.csv")
  
 # make dataframe from data
 df = pd.DataFrame(data, columns=["Frame", "X_RH", "Y_RH", "Likelihood_RH", "X_LH", "Y_LH", "Likelihood_LH", "X_Pellet", "Y_Pellet", "Likelihood_Pellet"])
