@@ -36,7 +36,7 @@ Plots the average amplitude of the action potentials of each cell. Data is deriv
 ### AP_BarGraph_Dur.py
 Plots the average duration of the action potentials of each cell, data derived from the average trace.
 
-### IVPlot.py
+### IVLinePlot.py
 Creates an I-V Plot of our own recording to analyze the passive membrane properties of our cell.
 
 ### plotting.py
