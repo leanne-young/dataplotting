@@ -1,6 +1,7 @@
 # Code to plot data for my research and lab courses
 
 ## NSCI 396 Research Project
+(Files located in the `NSCI 396` folder)
 
 ### BarGraphPlotting.py
 Calculates the uR score of 2 different trials being analyzed using the uR score equations defined in my report. Then plots a bar graph comparing the performance of both.
@@ -23,6 +24,7 @@ Plots the X and Y coordinates separately over time (in frames). Modeled after th
 _________________________________________
 
 ## Leech Research Project
+(Files located in the `PlottingCode` folder)
 
 ### AP_OverlayPlot.py
 Overlays the action potentials of 3 different cells before and after TEA drug wash-in. The action potentials are derived from the average trace, calculated from Clampfit.
