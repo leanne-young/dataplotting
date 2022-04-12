@@ -24,7 +24,7 @@ Plots the X and Y coordinates separately over time (in frames). Modeled after th
 _________________________________________
 
 ## Leech Research Project
-(Files located in the `PlottingCode` folder)
+(Python files located in the `PlottingCode` folder, data files located in the `Data` folder)
 
 ### AP_OverlayPlot.py
 Overlays the action potentials of 3 different cells before and after TEA drug wash-in. The action potentials are derived from the average trace, calculated from Clampfit.
