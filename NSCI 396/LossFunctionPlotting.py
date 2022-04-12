@@ -10,7 +10,7 @@ from matplotlib.lines import Line2D
 import numpy as np
 
 #import csv
-data = pd.read_csv (r"C:\Users\Iron Precision\Desktop\School\Lab_2022\DLC\Trial9_DCohort-LY-2022-03-27\dlc-models\iteration-0\Trial9_DCohortMar27-trainset95shuffle1\train\learning_stats.csv")
+data = pd.read_csv (r"C:\Users\Leanne\Desktop\School\Lab_2022\DLC\Trial9_DCohort-LY-2022-03-27\dlc-models\iteration-0\Trial9_DCohortMar27-trainset95shuffle1\train\learning_stats.csv")
  
 # make dataframe from data
 df = pd.DataFrame(data, columns=["Iteration", "Loss"])
