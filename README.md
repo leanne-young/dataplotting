@@ -47,11 +47,11 @@ Overlays 2 different action potentials to compare their differences.
 
 _________________________________________
 
-## 🧠 Connectome Research Project
+## 🧠  Connectome Research Project
 (Python files and data files located in the `BIOL 389` > `Connectome` folder)
 
 
 _________________________________________
 
-## 🪰 Drosophila Larvae Research Project
+## 🪰  Drosophila Larvae Research Project
 (Python files and data files located in the `BIOL 389` > `Maggot` folder)
