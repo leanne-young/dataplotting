@@ -1,6 +1,6 @@
 # Code to plot data for my research and lab courses
 
-## NSCI 396 Research Project
+## 🐭 NSCI 396 Research Project
 (Files located in the `NSCI 396` folder)
 
 ### BarGraphPlotting.py
