@@ -23,7 +23,7 @@ Plots the X and Y coordinates separately over time (in frames). Modeled after th
 
 _________________________________________
 
-## Leech Research Project
+## 🔬 Leech Research Project
 (Python files located in the `PlottingCode` folder, data files located in the `Data` folder)
 
 ### AP_OverlayPlot.py
@@ -47,11 +47,11 @@ Overlays 2 different action potentials to compare their differences.
 
 _________________________________________
 
-## Connectome Research Project
+## 🧠 Connectome Research Project
 (Python files and data files located in the `BIOL 389` > `Connectome` folder)
 
 
 _________________________________________
 
-## Drosophila Larvae Research Project
+## 🪰 Drosophila Larvae Research Project
 (Python files and data files located in the `BIOL 389` > `Maggot` folder)
