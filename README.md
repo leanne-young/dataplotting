@@ -23,6 +23,14 @@ Plots the X and Y coordinates separately over time (in frames). Modeled after th
 
 _________________________________________
 
+## 🧠  Connectome Research Project
+(Python files and data files located in the `BIOL 389` > `Connectome` folder)
+
+### ConnectivityComparison.py
+Plots a bar graph to give a visual comparison between the number of presynaptic connections and upstream neurons in *D. melanogaster* and *D. santomea*.
+
+_________________________________________
+
 ## 🔬 Leech Research Project
 (Python files located in the `PlottingCode` folder, data files located in the `Data` folder)
 
@@ -44,12 +52,6 @@ Creates an I-V Plot of our own recording to analyze the passive membrane propert
 ### plotting.py
 [older version code] Plotting the recordings from our Leech module data collection.
 Overlays 2 different action potentials to compare their differences.
-
-_________________________________________
-
-## 🧠  Connectome Research Project
-(Python files and data files located in the `BIOL 389` > `Connectome` folder)
-
 
 _________________________________________
 
