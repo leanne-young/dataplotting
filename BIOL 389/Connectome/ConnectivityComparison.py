@@ -1,4 +1,4 @@
-#Plot APs from clampfit
+#Plot connectivity comparison (synapse and neuron count)
 
 import argparse
 import os
