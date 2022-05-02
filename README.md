@@ -57,3 +57,9 @@ _________________________________________
 
 ## 🪰  Drosophila Larvae Research Project
 (Python files and data files located in the `BIOL 389` > `Maggot` folder)
+
+### obstacle_ppk.py
+Controls the red LED light to optogenetically activate nociceptors to simulate a painful obstacle in the middle of the agar plate.
+
+### Leanne&Zeph_Opto_autopy_masked_ppk_obstacle.bonsai
+Bonsai workflow to record trials, calculate XY coordinates of the larvae centroid, and facilitate control of the LED with `obstacle_ppk.py` by communicating with the Arduino microcontroller.
