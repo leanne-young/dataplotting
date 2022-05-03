@@ -63,3 +63,9 @@ Controls the red LED light to optogenetically activate nociceptors to simulate a
 
 ### opto_autopy_masked_ppk_obstacle.bonsai
 Bonsai workflow to record trials, calculate XY coordinates of the larvae centroid, and facilitate control of the LED with `obstacle_ppk.py` by communicating with the Arduino microcontroller.
+
+### AspectRatio_AnglePlot.py
+Plots the aspect ratio of the ellipse (larva) by time to quantify body reorientations. Variables can be changed to plot the adjusted angles of the ellipse by time, which show body orientation.
+
+### AR_Comparison.py
+Compares the average aspect ratio of the fed larva and of the starved larva as a bar graph.
